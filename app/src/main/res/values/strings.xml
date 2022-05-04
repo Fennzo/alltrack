@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tracking</string>
+    <string name="addTracking_title">Add Tracking</string>
+    <string name="addTracking_hint_trackingNum">Enter your tracking number</string>
+    <string name="addTracking_button_track">Track</string>
+    <string name="addTracking_hint_memo">Enter your memo</string>
+    <string name="trackingHolder_lable_notDelivered">Not Delivered</string>
+    <string name="trackingHolder_label_delivered">Delivered</string>
+    <string name="trackingHolder_label_trackingNum">➡️ Tracking number: %s</string>
+    <string name="trackingList_title">Trackings</string>
+    <string name="trackingList_contentDesc_addNewTracking">Add new tracking</string>
+    <string name="trackingDetails_title">Tracking Details</string>
+    <string name="trackingDetails_label_checkPoints">Checkpoints</string>
+    <string name="trackingOptions_item_search">Search</string>
+    <string name="trackingOptions_item_filter">Filter</string>
+    <string name="trackingOptions_item_3daysFilter">3 Days</string>
+    <string name="trackingOptions_item_delivered">Delivered</string>
+    <string name="trackingOptions_item_undelivered">Undelivered</string>
+    <string name="trackingDetails_title_deleteTracking">Delete tracking</string>
+</resources>

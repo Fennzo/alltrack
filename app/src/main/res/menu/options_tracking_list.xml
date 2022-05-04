@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/trackingOptions_item_search"
+        android:title="@string/trackingOptions_item_search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/trackingOptions_item_filter"
+        android:title="@string/trackingOptions_item_filter"
+        android:icon="@drawable/ic_filter"
+        app:showAsAction="ifRoom">
+
+        <menu>
+
+            <item
+                android:id="@+id/trackingOptions_item_3daysFilter"
+                android:title="@string/trackingOptions_item_3daysFilter"/>
+
+            <item
+                android:id="@+id/trackingOptions_item_delivered"
+                android:title="@string/trackingOptions_item_delivered"/>
+
+            <item
+                android:id="@+id/trackingOptions_item_undelivered"
+                android:title="@string/trackingOptions_item_undelivered"/>
+
+        </menu>
+
+    </item>
+
+</menu>
